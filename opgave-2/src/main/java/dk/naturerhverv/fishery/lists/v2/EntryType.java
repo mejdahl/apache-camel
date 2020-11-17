@@ -8,6 +8,7 @@ import javax.xml.bind.annotation.XmlSchemaType;
 import javax.xml.bind.annotation.XmlType;
 import javax.xml.datatype.XMLGregorianCalendar;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 
@@ -92,6 +93,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
     "name",
     "order"
 })
+@JsonInclude(JsonInclude.Include.NON_NULL)
 public class EntryType {
 
     @XmlElement(name = "Zone")

@@ -36,6 +36,7 @@ run> mvn camel:run
 ```
 
 Url til "by" service https://fiskeriservice-q.fiskeristyrelsen.dk/common-integration/rest/list/LocationList
+Der returnere  dk.fd.soa.List.class)
 
 Tilføj til POM for brug af List.class 
 ```

@@ -43,6 +43,7 @@ public class List {
     protected String type;
     
     @XmlElement(name = "Entry", required = true)
+    @JsonProperty("Entry")
     protected java.util.List<EntryType> entry;
 
     /**
